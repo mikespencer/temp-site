@@ -1,0 +1,29 @@
+// Your custom SCSS should be written here...
+
+@import 'var/settings';
+
+a, a.label {
+  //color: $body-link-hover-color
+  color: $body-font-color
+}
+
+.lead{
+  border-bottom: 1px dotted #ccc;
+  margin-bottom: 10px;
+}
+
+h1.lead{
+  margin-bottom: 26px;
+}
+
+.container{
+  p {
+    margin-left: 0;
+  }
+}
+
+.contact{
+  a{
+    display: block;
+  }
+}
